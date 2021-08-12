@@ -8,6 +8,7 @@ public class Task4 {
         int secret = (int) (Math.random() * 100);
         //System.out.println(secret);
         int guess;
+        System.out.println("Введите число: ");
         do {
             guess = scanner.nextInt();
             System.out.println(guess);
